@@ -4,7 +4,7 @@ const app = express()
 const MongoClient = require('mongodb').MongoClient
 
 
-MongoClient.connect('mongodb+srv://elisabethgliddon:TutorialPW3131@cluster0.ecuvni1.mongodb.net/?retryWrites=true&w=majority', { useUnifiedTopology: true })
+MongoClient.connect('mongodb+srv://elisabethgliddon:***********@cluster0.ecuvni1.mongodb.net/?retryWrites=true&w=majority', { useUnifiedTopology: true })
   .then(client => {
     console.log('Connected to Database')
     const db = client.db('schitts-creek-quotes')
